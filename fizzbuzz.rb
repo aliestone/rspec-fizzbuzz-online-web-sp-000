@@ -8,6 +8,7 @@ def fizzbuzz (int)
     "Buzz"
   elsif int % 5 || 3 == 0
     "FizzBuzz"
-  else return "nil"
+  elsif int != 0
+    return "nil"
   end
 end
