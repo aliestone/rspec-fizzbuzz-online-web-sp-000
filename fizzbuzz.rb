@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz (int)
-  if (int % 3 == 0)
+  if int % 3 == 0
     puts "Fizz"
-  elsif (int % 5 == 0)
+  elsif int % 5 == 0
     puts "Buzz"
-  elsif (int % 15 == 0)
+  elsif int % 15 == 0
     puts "FizzBuzz"
   else puts "nil"
   end
